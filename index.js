@@ -50,7 +50,7 @@ const markovChain = () => {
     return jordan;
 }
 
-// Server port to listen on
+// Server port to listen onn
 const PORT = process.env.PORT || 5000;
 
 app = express();
