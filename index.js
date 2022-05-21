@@ -54,7 +54,6 @@ const markovChain = () => {
 const PORT = process.env.PORT || 5000;
 
 app = express();
-// ------------ init middlewares ------------
 
 // Homepage
 app.get('/', (req, res) => {
